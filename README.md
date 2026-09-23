@@ -123,21 +123,3 @@ python notebooks/04_modeling_full.py
 Runs in under two minutes on `data/zone_modeling_table_FINAL.csv`.
 Upstream GIS processing (block-group aggregation) was done in ArcGIS Pro — steps documented
 in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md).
-
----
-
-## Next steps
-
-1. **Finer resolution.** Replicate at tract or block-group level within selected metros —
-   the direct test of whether the null result is an aggregation artefact.
-2. **Spatial models.** Given 63.4% between-state residual variance, spatial lag/error models
-   or GWR are more appropriate than either OLS or tree-based methods at this scale.
-3. **Regional mechanisms.** Identify what the state effect represents — climate, DOT
-   investment, development era — and measure it directly.
-
----
-
-## Note on tooling
-
-Analysis code was developed with AI assistance. All research design, data acquisition, GIS
-processing, methodological decisions and interpretation are the author's.

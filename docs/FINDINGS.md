@@ -37,7 +37,7 @@ controlled — a suppression effect worth flagging (see §4).
 
 ---
 
-## 3. Spatial dependence — the central diagnostic
+## 3. Spatial dependence-the central diagnostic
 
 ![Spatial residuals](../figures/fig4_spatial_residuals.png)
 
@@ -85,7 +85,7 @@ downtown with cul-de-sac suburbs yields a number that describes neither.
 
 ---
 
-## 5. Model comparison — the headline result
+## 5. Model comparison-the headline result
 
 ![CV comparison](../figures/fig5_cv_comparison.png)
 
@@ -180,14 +180,3 @@ It also raises a methodological concern worth taking seriously: studies validati
 non-linear BE models with random cross-validation on spatially autocorrelated data may be
 reporting performance that would not survive spatial validation. The +0.269 leakage measured
 here is large enough to account for a reported non-linear advantage on its own.
-
----
-
-## 8. What would change the answer
-
-1. **Finer spatial resolution** — tract or block-group level within selected metros. The
-   direct test of the aggregation hypothesis.
-2. **Explicit spatial models** — spatial lag/error or GWR, given 63.4% between-state residual
-   variance.
-3. **Measuring the regional effect** — identifying what "state" stands for (climate, DOT
-   investment, development era) and including it directly.
